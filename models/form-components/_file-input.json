@@ -39,6 +39,13 @@
                     "...": "../form-common/_basic-input-fields.json"
                 },
                 {
+                    "component": "boolean",
+                    "name": "allowMultiple",
+                    "label": "Allow multiple file attachments",
+                    "valueType": "boolean",
+                    "collapsible": false
+                  },
+                {
                     "...": "../form-common/_help-container.json"
                 },
                 {

@@ -1745,6 +1745,13 @@
         ]
       },
       {
+        "component": "boolean",
+        "name": "allowMultiple",
+        "label": "Allow multiple file attachments",
+        "valueType": "boolean",
+        "collapsible": false
+      },
+      {
         "component": "container",
         "name": "help",
         "label": "Help Content",
