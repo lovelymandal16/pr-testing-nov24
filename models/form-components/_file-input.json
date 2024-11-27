@@ -36,7 +36,18 @@
                     "name": "basic",
                     "label": "Basic",
                     "collapsible": false,
-                    "...": "../form-common/_basic-input-fields.json"
+                    "fields": [
+                        {
+                             "...": "../form-common/_basic-input-fields.json"
+                        },
+                        {
+                            "component": "boolean",
+                            "name": "allowMultiple",
+                            "label": "Allow multiple file attachments",
+                            "valueType": "boolean",
+                            "collapsible": false
+                        }
+                    ]
                 },
                 {
                     "...": "../form-common/_help-container.json"
@@ -73,6 +84,12 @@
                             "component": "text",
                             "name": "acceptMessage",
                             "label": "File type error message",
+                            "valueType": "string"
+                        },
+                        {
+                            "component": "number",
+                            "name": "maxFileNum",
+                            "label": "Maximum number of files",
                             "valueType": "string"
                         }
                     ]
