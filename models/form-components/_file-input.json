@@ -74,6 +74,12 @@
                             "name": "acceptMessage",
                             "label": "File type error message",
                             "valueType": "string"
+                        },
+                        {
+                            "component": "number",
+                            "name": "maxFileSize",
+                            "label": "Maximum file size (MB)",
+                            "valueType": "string"
                         }
                     ]
                 }
