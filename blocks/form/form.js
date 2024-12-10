@@ -321,6 +321,12 @@ function inputDecorator(field, element) {
     }
     if (input.multiple) {
       field.type = 'file[]';
+      if (field.properties?.maxFilesMessage) {
+        input.dataset.maxFilesMessage = field.properties.maxFilesMessage;
+      }
+      if (field.properties?.minFilesMessage) {
+        input.dataset.minFilesMessage = field.properties.minFilesMessage;
+      }
     }
     setConstraintsMessage(element, field.constraintMessages);
     element.dataset.required = field.required;
