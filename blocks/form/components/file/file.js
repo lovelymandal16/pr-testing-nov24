@@ -95,7 +95,7 @@ function fileValidation(input, files) {
     }
   } else if (multiple && minItems !== 1 && files.length < minItems) {
     constraint = 'minItems';
-    if (maxFilesMessage.trim().length > 0) {
+    if (minFilesMessage.trim().length > 0) {
       errorMessage = minFilesMessage;
     } else {
       errorMessage = defaultErrorMessages.minItems.replace(/\$0/, minItems);
