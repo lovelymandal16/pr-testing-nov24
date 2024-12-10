@@ -84,7 +84,7 @@
                         },
                         {
                             "component": "number",
-                            "name": "minFiles",
+                            "name": "minItems",
                             "label": "Minimum number of files",
                             "valueType": "string"
                         },
@@ -96,7 +96,7 @@
                         },
                         {
                             "component": "number",
-                            "name": "maxFiles",
+                            "name": "maxItems",
                             "label": "Maximum number of files",
                             "valueType": "string"
                         },
