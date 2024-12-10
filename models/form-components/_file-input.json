@@ -84,8 +84,26 @@
                         },
                         {
                             "component": "number",
-                            "name": "maxFileSize",
-                            "label": "Maximum file size (MB)",
+                            "name": "minFiles",
+                            "label": "Minimum number of files",
+                            "valueType": "string"
+                        },
+                        {
+                            "component": "text",
+                            "name": "minFilesMessage",
+                            "label": "Minimum files error message",
+                            "valueType": "string"
+                        },
+                        {
+                            "component": "number",
+                            "name": "maxFiles",
+                            "label": "Maximum number of files",
+                            "valueType": "string"
+                        },
+                        {
+                            "component": "text",
+                            "name": "maxFilesMessage",
+                            "label": "Maximum files error message",
                             "valueType": "string"
                         }
                     ]
