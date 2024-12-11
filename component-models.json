@@ -1851,7 +1851,15 @@
             "component": "text",
             "name": "maxFilesMessage",
             "label": "Maximum files error message",
-            "valueType": "string"
+            "valueType": "string",
+            "condition": {
+              "==": [
+                {
+                  "var": "multiSelection"
+                },
+                true
+              ]
+            }
           }
         ]
       }
