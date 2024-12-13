@@ -976,7 +976,7 @@ const ValidConstraints = {
     string: ['minLength', 'maxLength', 'pattern'],
     number: ['minimum', 'maximum', 'exclusiveMinimum', 'exclusiveMaximum'],
     array: ['minItems', 'maxItems', 'uniqueItems'],
-    file: ['accept', 'maxFileSize'],
+    file: ['accept', 'maxFileSize','maxItems'],
     email: ['minLength', 'maxLength', 'format', 'pattern']
 };
 const validationConstraintsList = ['type', 'format', 'minimum', 'maximum', 'exclusiveMinimum', 'exclusiveMaximum', 'minItems',
