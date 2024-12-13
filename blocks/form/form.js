@@ -320,8 +320,8 @@ function inputDecorator(field, element) {
       input.pattern = emailPattern;
     }
     if (input.multiple) {
-      if (field.properties?.maxFilesMessage) {
-        input.dataset.maxFilesMessage = field.properties.maxFilesMessage;
+      if (field.properties?.maxItems) {
+        input.dataset.maxItems = field.properties.maxItems;
       }
       if (field.properties?.minFilesMessage) {
         input.dataset.minFilesMessage = field.properties.minFilesMessage;
